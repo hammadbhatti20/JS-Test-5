@@ -114,3 +114,92 @@
 // for (var i = 1; i <= 20; i++) {
 //     document.write(table * i,", ");
 // }
+
+
+//Chapter 17 - 20 (for Loops)
+
+//Q1
+// for (var i = 0; i < 10; i++) {
+//     console.log("HELLO WORLD!");
+// }
+
+//Q2
+// var usual;
+
+// for (usual = 1; usual <= 12; usual++) {
+//     console.log("HELLO WORLD!");
+// }
+
+//Q3
+// for (var i =0; i <= 4; i++) {
+//     console.log(true);
+// }
+
+//Q4
+// var usual;
+
+// for (usual = 0; usual < 100; usual++) {
+//     console.log("HELLO WORLD!");
+// }
+
+//Q5
+// for (var i = 0; i > 3; i--) {
+//     console.log("HELLO WORLD!");
+// }
+
+//Q6/7/8
+// var arr = ["dog","cow","sheep","cat",];
+// var flag = true;
+
+// for (var i = 0; i <= arr.length; i++) {
+//     flag = false;
+//     console.log(flag);
+// }
+
+//Q9
+// for (let i = 0; i < 10; i++) {
+//     if (i === 1) {
+//         alert("Counter is: " + i);
+//         break;
+//     }
+// }
+
+//Q10
+// var userNames = ["hammadbhatti20","bsheryar45","laiban882"];
+// var userInput = prompt("Enter first name");
+// var firstName = userInput;
+
+// for (var i = 0; i <= userNames.length; i++) {
+//     if (userInput == userNames[i]) {
+//         alert("Enter")
+//         break;
+//     } else {
+//         alert("Please write correct user name");
+//         break;
+//     }
+// }
+
+//Q11
+// var list = ["dog","cow","sheep","cat",];
+// var matchFound = false;
+// console.log("matchFound = ",matchFound);
+// var userInput = prompt("Enter Pet Name:");
+
+// for (var i = 0; i <= list.length; i++) { 
+//     if (userInput === list[i]) {
+//     alert("Match found");
+//     matchFound = true; 
+//     break;
+//     }
+// };
+// console.log("matchFound = ",matchFound);
+
+//Q12
+// var firstArr = ["a","b","c","d","e","f"];
+// var secondArr = [1,2,3,4,5,6];
+
+// for (var i = 0; i <= firstArr.length; i++) {
+//     for (var j = 0; j <= secondArr.length; j++) {
+//         document.write(firstArr[i] + secondArr[j] + "</br>");
+//     }
+// }
